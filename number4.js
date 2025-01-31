@@ -1,11 +1,17 @@
-function leapYear(year) {
-    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+let year = parseInt(prompt("Enter a year:"));
+    if (year % 400 == 0) {
         console.log("Leap Year.");
-    } else {
+    } 
+    else if (year % 100 == 0){
         console.log("Not a Leap Year.");
     }
-}
+    else if (year % 4 == 0){
+        console.log("Leap Year.");
+    }
+    else{
+        console.log("Not a Leap Year.");
+    }
 
-let year = parseInt(prompt("Enter a year:"));
-leapYear(year);
+
+
 

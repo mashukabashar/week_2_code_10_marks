@@ -1,4 +1,3 @@
-function checkEvenOrOdd() {
     let number = (prompt("Enter a number:"));
     num=parseInt(number);
 
@@ -11,6 +10,6 @@ function checkEvenOrOdd() {
     }
     else{
         console.log("Enter a valid number");
-    }}
+    }
 
-checkEvenOrOdd();
+
