@@ -1,4 +1,4 @@
-function isLeapYear(year) {
+function leapYear(year) {
     if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
         console.log("Leap Year.");
     } else {
@@ -7,7 +7,5 @@ function isLeapYear(year) {
 }
 
 let year = parseInt(prompt("Enter a year:"));
-isLeapYear(year);
+leapYear(year);
 
-
-//ektu organize korte hobe

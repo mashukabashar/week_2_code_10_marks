@@ -1,14 +1,3 @@
-//   console.log(typeof 1000)
-//   console.log(typeof [1000])
-
-//   if(typeof [1000, 2000, 3000] =='object'){
-//     console.log(1)
-//   }
-//   else{
-//     console.log(0)
-//   }
-
-
 function monthlySavings(payments, livingCost) {
     if (typeof payments != 'object' || typeof livingCost !== 'number') {
       return "invalid input";
@@ -42,7 +31,15 @@ function monthlySavings(payments, livingCost) {
   console.log(monthlySavings(10000, [900, 2700, 3400]));
 
 
-//ektu organize korte hobe
+  //   console.log(typeof 1000)
+//   console.log(typeof [1000])
+
+//   if(typeof [1000, 2000, 3000] =='object'){
+//     console.log(1)
+//   }
+//   else{
+//     console.log(0)
+//   }
 
 
 
